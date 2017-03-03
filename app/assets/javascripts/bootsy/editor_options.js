@@ -9,6 +9,8 @@ window.Bootsy.options = {};
 
 $.extend(true, window.Bootsy.options, $.fn.wysihtml5.defaultOptions, {
   parserRules: {
+    allowEveryClasses: 1,
+
     classes: {
       "wysiwyg-float-left": 1,
       "wysiwyg-float-right": 1,
